@@ -1,0 +1,224 @@
+17:02:16.864: Using EGL/X11
+17:02:16.864: CPU Name: AMD Ryzen 5 5500
+17:02:16.864: CPU Speed: 3393.725MHz
+17:02:16.864: Physical Cores: 6, Logical Cores: 12
+17:02:16.864: Physical Memory: 15880MB Total, 14779MB Free
+17:02:16.864: Kernel Version: Linux 6.7.4-arch1-1
+17:02:16.864: Distribution: "Arch Linux" Unknown
+17:02:16.864: Desktop Environment: bspwm
+17:02:16.864: Session Type: x11
+17:02:16.864: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:02:16.866: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+17:02:16.866: Portable mode: false
+17:02:16.919: OBS 30.0.2-4 (linux)
+17:02:16.919: ---------------------------------
+17:02:16.921: ---------------------------------
+17:02:16.921: audio settings reset:
+17:02:16.921: 	samples per sec: 48000
+17:02:16.921: 	speakers:        2
+17:02:16.921: 	max buffering:   960 milliseconds
+17:02:16.921: 	buffering type:  dynamically increasing
+17:02:16.925: ---------------------------------
+17:02:16.925: Initializing OpenGL...
+17:02:16.974: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+17:02:16.974: OpenGL loaded successfully, version 3.3.0 NVIDIA 545.29.06, shading language 3.30 NVIDIA via Cg compiler
+17:02:17.090: ---------------------------------
+17:02:17.090: video settings reset:
+17:02:17.090: 	base resolution:   1920x1080
+17:02:17.090: 	output resolution: 1280x720
+17:02:17.090: 	downscale filter:  Bicubic
+17:02:17.090: 	fps:               30/1
+17:02:17.090: 	format:            NV12
+17:02:17.090: 	YUV mode:          Rec. 709/Partial
+17:02:17.091: NV12 texture support not available
+17:02:17.091: P010 texture support not available
+17:02:17.135: Audio monitoring device:
+17:02:17.135: 	name: Default
+17:02:17.135: 	id: default
+17:02:17.135: ---------------------------------
+17:02:17.143: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:02:17.151: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+17:02:17.157: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:02:17.157: Failed to initialize module 'decklink.so'
+17:02:17.289: [pipewire] No captures available
+17:02:17.309: v4l2loopback not installed, virtual camera disabled
+17:02:17.396: NVENC supported
+17:02:17.397: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+17:02:17.397: FFmpeg VAAPI H264 encoding not supported
+17:02:17.397: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+17:02:17.397: FFmpeg VAAPI HEVC encoding not supported
+17:02:17.496: ---------------------------------
+17:02:17.496:   Loaded Modules:
+17:02:17.496:     text-freetype2.so
+17:02:17.496:     rtmp-services.so
+17:02:17.496:     obs-x264.so
+17:02:17.496:     obs-webrtc.so
+17:02:17.496:     obs-vst.so
+17:02:17.496:     obs-transitions.so
+17:02:17.496:     obs-qsv11.so
+17:02:17.496:     obs-outputs.so
+17:02:17.496:     obs-libfdk.so
+17:02:17.496:     obs-filters.so
+17:02:17.496:     obs-ffmpeg.so
+17:02:17.496:     linux-v4l2.so
+17:02:17.496:     linux-pulseaudio.so
+17:02:17.496:     linux-pipewire.so
+17:02:17.496:     linux-jack.so
+17:02:17.496:     linux-capture.so
+17:02:17.496:     linux-alsa.so
+17:02:17.496:     image-source.so
+17:02:17.496:     frontend-tools.so
+17:02:17.496:     decklink-output-ui.so
+17:02:17.496:     decklink-captions.so
+17:02:17.496: ---------------------------------
+17:02:17.497: ==== Startup complete ===============================================
+17:02:17.501: No scene file found, creating default scene
+17:02:17.540: All scene data cleared
+17:02:17.540: ------------------------------------------------
+17:02:17.548: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+17:02:17.549: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:02:17.549: pulse-input: Started recording from 'alsa_output.pci-0000_30_00.6.analog-stereo.monitor' (default)
+17:02:17.549: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+17:02:17.549: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:02:17.549: pulse-input: Started recording from 'alsa_input.pci-0000_30_00.6.analog-stereo' (default)
+17:02:17.550: Switched to scene 'Scene'
+17:02:17.550: Failed to glob scene collections
+17:02:18.031: [rtmp-services plugin] Successfully updated file 'services.json' (version 241)
+17:02:18.032: [rtmp-services plugin] Successfully updated package (version 241)
+17:02:18.350: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+17:02:18.350: 
+17:02:18.393: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:02:18.393: 
+17:02:36.949: xshm-input: Geometry 1920x1200 @ 0,0
+17:02:36.954: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+17:02:43.179:   OpenType support missing for "Open Sans", script 11
+17:02:43.183:   OpenType support missing for "Open Sans", script 12
+17:02:43.188:   OpenType support missing for "Open Sans", script 16
+17:02:43.191:   OpenType support missing for "Open Sans", script 20
+17:03:18.183: Settings changed (outputs)
+17:03:18.183: ------------------------------------------------
+17:03:23.328: Settings changed (outputs)
+17:03:23.328: ------------------------------------------------
+17:03:38.031: Number of remaining views: 1
+17:03:38.031: ---------------------------------
+17:03:38.031: video settings reset:
+17:03:38.031: 	base resolution:   1920x1200
+17:03:38.031: 	output resolution: 1920x1080
+17:03:38.031: 	downscale filter:  Lanczos
+17:03:38.031: 	fps:               60/1
+17:03:38.031: 	format:            NV12
+17:03:38.031: 	YUV mode:          Rec. 709/Partial
+17:03:38.031: NV12 texture support not available
+17:03:38.031: P010 texture support not available
+17:03:38.031: Settings changed (outputs, video)
+17:03:38.031: ------------------------------------------------
+17:03:42.379: ---------------------------------
+17:03:42.379: [FFmpeg NVENC encoder: 'advanced_video_recording'] settings:
+17:03:42.379: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+17:03:42.379: 	rate_control: CBR
+17:03:42.379: 	bitrate:      40000
+17:03:42.379: 	cqp:          0
+17:03:42.379: 	keyint:       -1
+17:03:42.379: 	preset:       p6
+17:03:42.379: 	tuning:       hq
+17:03:42.379: 	multipass:    fullres
+17:03:42.379: 	profile:      high
+17:03:42.379: 	width:        1920
+17:03:42.379: 	height:       1080
+17:03:42.379: 	b-frames:     2
+17:03:42.379: 	psycho-aq:    1
+17:03:42.379: 	GPU:          0
+17:03:42.379: 
+17:03:42.626: libfdk_aac encoder created
+17:03:42.626: libfdk_aac bitrate: 160, channels: 2
+17:03:42.628: ==== Recording Start ===============================================
+17:03:42.628: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nizar/2024-02-27 17-03-42.mp4'...
+17:03:43.537: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/nizar/2024-02-27 17-03-42.mp4' stopped
+17:03:43.537: Output 'adv_file_output': stopping
+17:03:43.537: Output 'adv_file_output': Total frames output: 30
+17:03:43.537: Output 'adv_file_output': Total drawn frames: 54 (55 attempted)
+17:03:43.537: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 1 (1.8%)
+17:03:43.538: ==== Recording Stop ================================================
+17:03:43.689: libfdk_aac encoder destroyed
+17:05:04.713: ---------------------------------
+17:05:04.713: [FFmpeg NVENC encoder: 'advanced_video_recording'] settings:
+17:05:04.713: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+17:05:04.713: 	rate_control: CBR
+17:05:04.713: 	bitrate:      40000
+17:05:04.713: 	cqp:          0
+17:05:04.713: 	keyint:       -1
+17:05:04.713: 	preset:       p6
+17:05:04.713: 	tuning:       hq
+17:05:04.713: 	multipass:    fullres
+17:05:04.713: 	profile:      high
+17:05:04.713: 	width:        1920
+17:05:04.713: 	height:       1080
+17:05:04.713: 	b-frames:     2
+17:05:04.713: 	psycho-aq:    1
+17:05:04.713: 	GPU:          0
+17:05:04.713: 
+17:05:04.874: libfdk_aac encoder created
+17:05:04.874: libfdk_aac bitrate: 160, channels: 2
+17:05:04.875: ==== Recording Start ===============================================
+17:05:04.875: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nizar/2024-02-27 17-05-04.mp4'...
+17:05:14.396: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/nizar/2024-02-27 17-05-04.mp4' stopped
+17:05:14.396: Output 'adv_file_output': stopping
+17:05:14.396: Output 'adv_file_output': Total frames output: 548
+17:05:14.396: Output 'adv_file_output': Total drawn frames: 571
+17:05:14.397: ==== Recording Stop ================================================
+17:05:14.556: libfdk_aac encoder destroyed
+17:05:55.013: ---------------------------------
+17:05:55.013: [FFmpeg NVENC encoder: 'advanced_video_recording'] settings:
+17:05:55.013: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+17:05:55.013: 	rate_control: CBR
+17:05:55.013: 	bitrate:      40000
+17:05:55.013: 	cqp:          0
+17:05:55.013: 	keyint:       -1
+17:05:55.013: 	preset:       p6
+17:05:55.013: 	tuning:       hq
+17:05:55.013: 	multipass:    fullres
+17:05:55.013: 	profile:      high
+17:05:55.013: 	width:        1920
+17:05:55.013: 	height:       1080
+17:05:55.013: 	b-frames:     2
+17:05:55.013: 	psycho-aq:    1
+17:05:55.013: 	GPU:          0
+17:05:55.013: 
+17:05:55.173: libfdk_aac encoder created
+17:05:55.173: libfdk_aac bitrate: 160, channels: 2
+17:05:55.173: ==== Recording Start ===============================================
+17:05:55.173: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nizar/2024-02-27 17-05-55.mp4'...
+17:06:34.005: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/nizar/2024-02-27 17-05-55.mp4' stopped
+17:06:34.005: Output 'adv_file_output': stopping
+17:06:34.005: Output 'adv_file_output': Total frames output: 2306
+17:06:34.005: Output 'adv_file_output': Total drawn frames: 2330
+17:06:34.005: ==== Recording Stop ================================================
+17:06:34.162: libfdk_aac encoder destroyed
+17:09:15.511: ---------------------------------
+17:09:15.511: [FFmpeg NVENC encoder: 'advanced_video_recording'] settings:
+17:09:15.511: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+17:09:15.511: 	rate_control: CBR
+17:09:15.511: 	bitrate:      40000
+17:09:15.511: 	cqp:          0
+17:09:15.511: 	keyint:       -1
+17:09:15.511: 	preset:       p6
+17:09:15.511: 	tuning:       hq
+17:09:15.511: 	multipass:    fullres
+17:09:15.511: 	profile:      high
+17:09:15.511: 	width:        1920
+17:09:15.511: 	height:       1080
+17:09:15.511: 	b-frames:     2
+17:09:15.511: 	psycho-aq:    1
+17:09:15.511: 	GPU:          0
+17:09:15.511: 
+17:09:15.672: libfdk_aac encoder created
+17:09:15.672: libfdk_aac bitrate: 160, channels: 2
+17:09:15.673: ==== Recording Start ===============================================
+17:09:15.673: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nizar/2024-02-27 17-09-15.mp4'...
+17:10:08.756: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/nizar/2024-02-27 17-09-15.mp4' stopped
+17:10:08.756: Output 'adv_file_output': stopping
+17:10:08.756: Output 'adv_file_output': Total frames output: 3160
+17:10:08.756: Output 'adv_file_output': Total drawn frames: 3176 (3185 attempted)
+17:10:08.756: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 9 (0.3%)
+17:10:08.756: ==== Recording Stop ================================================
+17:10:08.915: libfdk_aac encoder destroyed

@@ -1,0 +1,56 @@
+2024-02-27 17:03:53.010 [info] Extension host with pid 1098 started
+2024-02-27 17:03:53.075 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-27 17:03:53.083 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-02-27 17:03:53.680 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-27 17:03:53.686 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-27 17:03:53.709 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-27 17:03:53.764 [info] Eager extensions activated
+2024-02-27 17:03:53.790 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 17:03:53.793 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 17:03:53.801 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 17:03:53.804 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 17:03:53.811 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 17:03:54.876 [error] Error: ENOENT: no such file or directory, open '/home/nizar/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-02-27 17:03:58.564 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-27 17:04:06.061 [info] Extension host terminating: renderer closed the MessagePort
+2024-02-27 17:04:06.070 [error] Canceled: Canceled
+	at Object.D [as $6] (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
+	at Array.forEach (<anonymous>)
+	at d.dispose (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2288)
+	at g.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8044)
+	at o.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-27 17:04:06.071 [error] Canceled: Canceled
+	at Object.D [as $6] (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:1032)
+	at /usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2350
+	at Array.forEach (<anonymous>)
+	at d.dispose (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:147:2288)
+	at g.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8044)
+	at o.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-02-27 17:04:06.071 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at LanguageClient.shutdown (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:69479:19)
+	at LanguageClient.stop (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:69450:21)
+	at LanguageClient.stop (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:78429:22)
+	at DefaultClient.stopLanguageClient (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:51654:48)
+	at ClientCollection.dispose (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:51984:39)
+	at Object.deactivate (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:55910:28)
+	at Object.deactivate (/home/nizar/.vscode/extensions/ms-vscode.cpptools-1.18.5-linux-x64/dist/src/main.js:97847:26)
+	at g.cb (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:9679)
+	at /usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at MessagePortMain.<anonymous> (/usr/bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:173:6375)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-02-27 17:04:06.078 [info] Extension host with pid 1098 exiting with code 0

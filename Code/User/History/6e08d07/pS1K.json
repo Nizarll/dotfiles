@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    "editor.fontFamily": "\"JetBrains Mono, Menlo, Monaco, 'Courier New', monospace\"",
+    "editor.fontSize": 16,
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ]
+}

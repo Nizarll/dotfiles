@@ -1,0 +1,9 @@
+2024-02-21 20:55:27.889 [info] update#setState idle
+2024-02-21 20:55:57.893 [info] update#setState checking for updates
+2024-02-21 20:55:57.942 [info] update#setState idle
+2024-02-21 21:55:57.920 [info] update#setState checking for updates
+2024-02-21 21:55:57.997 [info] update#setState idle
+2024-02-21 22:45:35.759 [error] [UtilityProcess type: shared-process, pid: 1755]: crashed with code 15 and reason 'killed'
+2024-02-21 22:45:35.760 [info] Extension host with pid 1745 exited with code: 0, signal: unknown.
+2024-02-21 22:45:35.761 [error] [UtilityProcess id: 1, type: extensionHost, pid: 1745]: crashed with code 15 and reason 'killed'
+2024-02-21 22:45:35.987 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

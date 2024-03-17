@@ -1,0 +1,26 @@
+No current configuration is defined in the workspace state. Assuming 'Default'.
+No target defined in the workspace state. Assuming 'Default'.
+Dropping various extension output files at /home/nizar/.config/Code/User/workspaceStorage/98976c2762e84f94f2b947bfd3b62861/ms-vscode.makefile-tools
+Logging level: Normal
+Configurations cached at /home/nizar/.config/Code/User/workspaceStorage/98976c2762e84f94f2b947bfd3b62861/ms-vscode.makefile-tools/configurationCache.log
+No path to the makefile is defined in the settings file.
+No folder path to the makefile is defined in the settings file.
+Always pre-configure: false
+Always post-configure: false
+Dry-run switches: '--always-make', '--keep-going', '--print-directory'
+No current launch configuration is set in the workspace state.
+Default launch configuration: MIMode = undefined,
+                    miDebuggerPath = undefined,
+                    stopAtEntry = undefined,
+                    symbolSearchPath = undefined
+Configure on open: true
+Configure on edit: true
+Configure after command: true
+Only .PHONY targets: false
+Save before build or configure: true
+Build before launch: true
+Clear output before build: true
+Ignore directory commands: true
+compile_commands.json path: null
+Deduced command 'make ' for configuration "Default"
+The makefile entry point was not found. Make sure it exists at the location defined by makefile.makefilePath, makefile.configurations[].makefilePath, makefile.makeDirectory, makefile.configurations[].makeDirectoryor in the root of the workspace.

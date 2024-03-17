@@ -1,0 +1,19 @@
+2024-02-21 20:55:28.913 [info] Extension host with pid 1745 started
+2024-02-21 20:55:28.913 [info] Skipping acquiring lock for /home/nizar/.config/Code/User/workspaceStorage/98976c2762e84f94f2b947bfd3b62861.
+2024-02-21 20:55:29.110 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-21 20:55:29.117 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-02-21 20:55:30.236 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-21 20:55:30.255 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-21 20:55:30.279 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-21 20:55:30.322 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: true, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+2024-02-21 20:55:30.420 [info] Eager extensions activated
+2024-02-21 20:55:30.427 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 20:55:30.429 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 20:55:30.436 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 20:55:30.439 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 20:55:30.446 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-02-21 20:55:31.517 [error] Error: ENOENT: no such file or directory, open '/home/nizar/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+2024-02-21 20:56:14.492 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-21 20:56:14.492 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-21 20:56:26.632 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.inline.macro'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-02-21 20:56:26.632 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.

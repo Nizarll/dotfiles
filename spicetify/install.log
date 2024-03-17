@@ -1,0 +1,9 @@
+[11:02:42 2024-02-16] FETCHING Version 2.31.3
+[11:02:42 2024-02-16] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.31.3/spicetify-2.31.3-linux-amd64.tar.gz
+[11:02:44 2024-02-16] EXTRACTING /home/nizar/.spicetify/spicetify.tar.gz
+[11:02:44 2024-02-16] SETTING EXECUTABLE PERMISSIONS TO /home/nizar/.spicetify/spicetify
+[11:02:44 2024-02-16] REMOVING /home/nizar/.spicetify/spicetify.tar.gz
+[11:02:44 2024-02-16] spicetify path already set in /home/nizar/.bashrc, continuing...
+[11:02:44 2024-02-16] spicetify path already set in /home/nizar/.bash_profile, continuing...
+[11:02:44 2024-02-16] spicetify v2.31.3 was installed successfully to /home/nizar/.spicetify
+[11:02:44 2024-02-16] Run 'spicetify --help' to get started

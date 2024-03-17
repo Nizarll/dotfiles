@@ -1,0 +1,18 @@
+2024/02/21-14:39:12.746 2ede Creating DB /home/nizar/.config/discord/IndexedDB/https_1070087967294631976.discordsays.com_0.indexeddb.leveldb since it was missing.
+2024/02/21-14:39:12.750 2ede Reusing MANIFEST /home/nizar/.config/discord/IndexedDB/https_1070087967294631976.discordsays.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/21-14:39:12.770 2ede Level-0 table #5: started
+2024/02/21-14:39:12.772 2ede Level-0 table #5: 672 bytes OK
+2024/02/21-14:39:12.774 2ede Delete type=0 #3
+2024/02/21-14:39:12.774 2ede Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/02/21-14:50:10.476 33ac Level-0 table #7: started
+2024/02/21-14:50:10.478 33ac Level-0 table #7: 1984 bytes OK
+2024/02/21-14:50:10.479 33ac Delete type=0 #4
+2024/02/21-14:50:10.479 33ac Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/02/21-14:50:10.479 33ac Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x00\x00\xc8\x05\x00q\x00u\x00e\x00u\x00e' @ 103 : 1
+2024/02/21-14:50:10.479 33ac Compacting 1@1 + 1@2 files
+2024/02/21-14:50:10.481 33ac Generated table #8@1: 33 keys, 902 bytes
+2024/02/21-14:50:10.481 33ac Compacted 1@1 + 1@2 files => 902 bytes
+2024/02/21-14:50:10.483 33ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/02/21-14:50:10.483 33ac Delete type=2 #7
+2024/02/21-14:50:10.483 33ac Delete type=2 #5
+2024/02/21-14:50:10.483 33ac Manual compaction at level-1 from '\x00\x03\x00\x00\xc8\x05\x00q\x00u\x00e\x00u\x00e' @ 103 : 1 .. (end); will stop at (end)

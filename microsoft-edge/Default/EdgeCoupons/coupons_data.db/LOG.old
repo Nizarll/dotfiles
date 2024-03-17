@@ -1,0 +1,6 @@
+2024/03/15-14:09:18.123 2a45 Reusing MANIFEST /home/nizar/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/03/15-14:09:18.124 2a45 Recovering log #4
+2024/03/15-14:09:18.124 2a45 Reusing old log /home/nizar/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000004.log 
+2024/03/15-14:09:19.564 2a3a Level-0 table #8: started
+2024/03/15-14:09:19.574 2a3a Level-0 table #8: 821070 bytes OK
+2024/03/15-14:09:19.578 2a3a Delete type=0 #4

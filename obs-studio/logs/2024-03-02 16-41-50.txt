@@ -1,0 +1,99 @@
+16:41:50.616: [Safe Mode] Unclean shutdown detected!
+16:41:52.804: [Safe Mode] User elected to launch normally.
+16:41:52.808: Using EGL/X11
+16:41:52.808: CPU Name: AMD Ryzen 5 5500
+16:41:52.808: CPU Speed: 400.000MHz
+16:41:52.809: Physical Cores: 6, Logical Cores: 12
+16:41:52.809: Physical Memory: 15880MB Total, 14883MB Free
+16:41:52.809: Kernel Version: Linux 6.7.4-arch1-1
+16:41:52.809: Distribution: "Arch Linux" Unknown
+16:41:52.809: Desktop Environment: bspwm
+16:41:52.809: Session Type: x11
+16:41:52.809: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+16:41:52.810: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+16:41:52.811: Portable mode: false
+16:41:52.839: OBS 30.0.2-4 (linux)
+16:41:52.839: ---------------------------------
+16:41:52.840: ---------------------------------
+16:41:52.840: audio settings reset:
+16:41:52.840: 	samples per sec: 48000
+16:41:52.840: 	speakers:        2
+16:41:52.840: 	max buffering:   960 milliseconds
+16:41:52.840: 	buffering type:  dynamically increasing
+16:41:52.846: ---------------------------------
+16:41:52.846: Initializing OpenGL...
+16:41:52.893: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+16:41:52.893: OpenGL loaded successfully, version 3.3.0 NVIDIA 545.29.06, shading language 3.30 NVIDIA via Cg compiler
+16:41:52.917: ---------------------------------
+16:41:52.917: video settings reset:
+16:41:52.917: 	base resolution:   1920x1200
+16:41:52.917: 	output resolution: 1920x1080
+16:41:52.917: 	downscale filter:  Lanczos
+16:41:52.917: 	fps:               60/1
+16:41:52.917: 	format:            NV12
+16:41:52.917: 	YUV mode:          Rec. 709/Partial
+16:41:52.918: NV12 texture support not available
+16:41:52.918: P010 texture support not available
+16:41:52.932: Audio monitoring device:
+16:41:52.932: 	name: Default
+16:41:52.932: 	id: default
+16:41:52.932: ---------------------------------
+16:41:52.940: Failed to load 'en-US' text for module: 'decklink-captions.so'
+16:41:52.947: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+16:41:52.953: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:41:52.953: Failed to initialize module 'decklink.so'
+16:41:53.086: [pipewire] No captures available
+16:41:53.105: v4l2loopback not installed, virtual camera disabled
+16:41:53.191: NVENC supported
+16:41:53.191: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+16:41:53.191: FFmpeg VAAPI H264 encoding not supported
+16:41:53.191: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+16:41:53.191: FFmpeg VAAPI HEVC encoding not supported
+16:41:53.289: ---------------------------------
+16:41:53.289:   Loaded Modules:
+16:41:53.289:     text-freetype2.so
+16:41:53.289:     rtmp-services.so
+16:41:53.289:     obs-x264.so
+16:41:53.289:     obs-webrtc.so
+16:41:53.289:     obs-vst.so
+16:41:53.289:     obs-transitions.so
+16:41:53.289:     obs-qsv11.so
+16:41:53.289:     obs-outputs.so
+16:41:53.289:     obs-libfdk.so
+16:41:53.289:     obs-filters.so
+16:41:53.289:     obs-ffmpeg.so
+16:41:53.289:     linux-v4l2.so
+16:41:53.289:     linux-pulseaudio.so
+16:41:53.289:     linux-pipewire.so
+16:41:53.289:     linux-jack.so
+16:41:53.289:     linux-capture.so
+16:41:53.289:     linux-alsa.so
+16:41:53.289:     image-source.so
+16:41:53.289:     frontend-tools.so
+16:41:53.289:     decklink-output-ui.so
+16:41:53.289:     decklink-captions.so
+16:41:53.289: ---------------------------------
+16:41:53.290: ==== Startup complete ===============================================
+16:41:53.310: All scene data cleared
+16:41:53.310: ------------------------------------------------
+16:41:53.313: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+16:41:53.314: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:41:53.314: pulse-input: Started recording from 'alsa_output.pci-0000_30_00.6.analog-stereo.monitor' (default)
+16:41:53.314: [Loaded global audio device]: 'Desktop Audio'
+16:41:53.314: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+16:41:53.314: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+16:41:53.314: pulse-input: Started recording from 'alsa_input.pci-0000_30_00.6.analog-stereo' (default)
+16:41:53.314: [Loaded global audio device]: 'Mic/Aux'
+16:41:53.315: xshm-input: Geometry 1920x1200 @ 0,0
+16:41:53.316: Switched to scene 'Scene'
+16:41:53.316: ------------------------------------------------
+16:41:53.316: Loaded scenes:
+16:41:53.316: - scene 'Scene':
+16:41:53.316:     - source: 'Screen Capture (XSHM)' (xshm_input)
+16:41:53.316: ------------------------------------------------
+16:41:54.121: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+16:41:54.121: 
+16:42:28.053:   OpenType support missing for "Open Sans", script 11
+16:42:28.058:   OpenType support missing for "Open Sans", script 12
+16:42:28.063:   OpenType support missing for "Open Sans", script 16
+16:42:28.066:   OpenType support missing for "Open Sans", script 20

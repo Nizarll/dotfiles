@@ -1,0 +1,4 @@
+2024-02-29 18:57:38.547 [info] Log level: Info
+2024-02-29 18:57:38.547 [info] Validating found git in: "git"
+2024-02-29 18:57:38.547 [info] Using git "2.43.1" from "git"
+2024-02-29 18:57:38.547 [warning] Failed to get repository realpath for: "/home/nizar/projects/websocket/server". Error: ENOENT: no such file or directory, realpath '/home/nizar/projects/websocket/server'

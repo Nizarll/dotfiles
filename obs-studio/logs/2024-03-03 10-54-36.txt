@@ -1,0 +1,177 @@
+10:54:36.519: [Safe Mode] Unclean shutdown detected!
+10:54:38.994: [Safe Mode] User elected to launch normally.
+10:54:38.997: Using EGL/X11
+10:54:38.998: CPU Name: AMD Ryzen 5 5500
+10:54:38.998: CPU Speed: 3296.187MHz
+10:54:38.998: Physical Cores: 6, Logical Cores: 12
+10:54:38.998: Physical Memory: 15880MB Total, 7994MB Free
+10:54:38.998: Kernel Version: Linux 6.7.4-arch1-1
+10:54:38.998: Distribution: "Arch Linux" Unknown
+10:54:38.998: Desktop Environment: bspwm
+10:54:38.998: Session Type: x11
+10:54:38.998: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:54:39.000: Qt Version: 6.6.2 (runtime), 6.6.2 (compiled)
+10:54:39.000: Portable mode: false
+10:54:39.030: OBS 30.0.2-4 (linux)
+10:54:39.030: ---------------------------------
+10:54:39.031: ---------------------------------
+10:54:39.031: audio settings reset:
+10:54:39.031: 	samples per sec: 48000
+10:54:39.031: 	speakers:        2
+10:54:39.031: 	max buffering:   960 milliseconds
+10:54:39.031: 	buffering type:  dynamically increasing
+10:54:39.036: ---------------------------------
+10:54:39.036: Initializing OpenGL...
+10:54:39.100: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2
+10:54:39.100: OpenGL loaded successfully, version 3.3.0 NVIDIA 545.29.06, shading language 3.30 NVIDIA via Cg compiler
+10:54:39.124: ---------------------------------
+10:54:39.124: video settings reset:
+10:54:39.124: 	base resolution:   1920x1200
+10:54:39.124: 	output resolution: 1920x1080
+10:54:39.124: 	downscale filter:  Lanczos
+10:54:39.124: 	fps:               60/1
+10:54:39.124: 	format:            NV12
+10:54:39.124: 	YUV mode:          Rec. 709/Partial
+10:54:39.125: NV12 texture support not available
+10:54:39.125: P010 texture support not available
+10:54:39.139: Audio monitoring device:
+10:54:39.139: 	name: Default
+10:54:39.139: 	id: default
+10:54:39.139: ---------------------------------
+10:54:39.148: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:54:39.157: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:54:39.164: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:54:39.164: Failed to initialize module 'decklink.so'
+10:54:39.311: [pipewire] No captures available
+10:54:39.334: v4l2loopback not installed, virtual camera disabled
+10:54:39.417: NVENC supported
+10:54:39.418: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+10:54:39.418: FFmpeg VAAPI H264 encoding not supported
+10:54:39.418: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+10:54:39.418: FFmpeg VAAPI HEVC encoding not supported
+10:54:39.525: ---------------------------------
+10:54:39.525:   Loaded Modules:
+10:54:39.525:     text-freetype2.so
+10:54:39.525:     rtmp-services.so
+10:54:39.525:     obs-x264.so
+10:54:39.525:     obs-webrtc.so
+10:54:39.525:     obs-vst.so
+10:54:39.525:     obs-transitions.so
+10:54:39.525:     obs-qsv11.so
+10:54:39.525:     obs-outputs.so
+10:54:39.525:     obs-libfdk.so
+10:54:39.525:     obs-filters.so
+10:54:39.525:     obs-ffmpeg.so
+10:54:39.525:     linux-v4l2.so
+10:54:39.525:     linux-pulseaudio.so
+10:54:39.525:     linux-pipewire.so
+10:54:39.525:     linux-jack.so
+10:54:39.525:     linux-capture.so
+10:54:39.525:     linux-alsa.so
+10:54:39.525:     image-source.so
+10:54:39.525:     frontend-tools.so
+10:54:39.525:     decklink-output-ui.so
+10:54:39.525:     decklink-captions.so
+10:54:39.525: ---------------------------------
+10:54:39.526: ==== Startup complete ===============================================
+10:54:39.543: All scene data cleared
+10:54:39.543: ------------------------------------------------
+10:54:39.547: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+10:54:39.547: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:54:39.547: pulse-input: Started recording from 'alsa_output.pci-0000_30_00.6.analog-stereo.monitor' (default)
+10:54:39.547: [Loaded global audio device]: 'Desktop Audio'
+10:54:39.547: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.3) 15.0.0'
+10:54:39.547: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:54:39.547: pulse-input: Started recording from 'alsa_input.pci-0000_30_00.6.analog-stereo' (default)
+10:54:39.547: [Loaded global audio device]: 'Mic/Aux'
+10:54:39.548: xshm-input: Geometry 1920x1200 @ 0,0
+10:54:39.549: Switched to scene 'Scene'
+10:54:39.549: ------------------------------------------------
+10:54:39.549: Loaded scenes:
+10:54:39.549: - scene 'Scene':
+10:54:39.549:     - source: 'Screen Capture (XSHM)' (xshm_input)
+10:54:39.549: ------------------------------------------------
+10:54:40.141: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+10:54:40.141: 
+10:54:43.154: User is ignoring service bitrate limits.
+10:54:43.155: ---------------------------------
+10:54:43.155: [FFmpeg NVENC encoder: 'advanced_video_stream'] settings:
+10:54:43.155: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+10:54:43.155: 	rate_control: CBR
+10:54:43.155: 	bitrate:      9000
+10:54:43.155: 	cqp:          0
+10:54:43.155: 	keyint:       120
+10:54:43.155: 	preset:       p7
+10:54:43.155: 	tuning:       hq
+10:54:43.155: 	multipass:    fullres
+10:54:43.155: 	profile:      high
+10:54:43.155: 	width:        1920
+10:54:43.155: 	height:       1080
+10:54:43.155: 	b-frames:     2
+10:54:43.155: 	psycho-aq:    1
+10:54:43.155: 	GPU:          0
+10:54:43.155: 
+10:54:43.485: libfdk_aac encoder created
+10:54:43.485: libfdk_aac bitrate: 160, channels: 2
+10:54:43.485: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+10:54:44.085: [rtmp stream: 'adv_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 (172.217.18.204) successful
+10:54:44.086: ==== Streaming Start ===============================================
+10:54:45.196: [rtmp stream: 'adv_stream'] User stopped the stream
+10:54:45.197: Output 'adv_stream': stopping
+10:54:45.197: Output 'adv_stream': Total frames output: 31
+10:54:45.197: Output 'adv_stream': Total drawn frames: 103
+10:54:45.197: ==== Streaming Stop ================================================
+10:54:45.432: libfdk_aac encoder destroyed
+10:55:22.183: User is ignoring service bitrate limits.
+10:55:22.184: ---------------------------------
+10:55:22.184: [FFmpeg NVENC encoder: 'advanced_video_stream'] settings:
+10:55:22.184: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+10:55:22.184: 	rate_control: CBR
+10:55:22.184: 	bitrate:      9000
+10:55:22.184: 	cqp:          0
+10:55:22.184: 	keyint:       120
+10:55:22.184: 	preset:       p7
+10:55:22.184: 	tuning:       hq
+10:55:22.184: 	multipass:    fullres
+10:55:22.184: 	profile:      high
+10:55:22.184: 	width:        1920
+10:55:22.184: 	height:       1080
+10:55:22.184: 	b-frames:     2
+10:55:22.184: 	psycho-aq:    1
+10:55:22.184: 	GPU:          0
+10:55:22.184: 
+10:55:22.405: libfdk_aac encoder created
+10:55:22.405: libfdk_aac bitrate: 160, channels: 2
+10:55:22.405: [rtmp stream: 'adv_stream'] Connecting to RTMP URL rtmp://b.rtmp.youtube.com/live2?backup=1...
+10:55:22.881: [rtmp stream: 'adv_stream'] Connection to rtmp://b.rtmp.youtube.com/live2?backup=1 (172.217.18.204) successful
+10:55:22.882: ==== Streaming Start ===============================================
+10:55:25.061: ---------------------------------
+10:55:25.061: [FFmpeg NVENC encoder: 'advanced_video_recording'] settings:
+10:55:25.061: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+10:55:25.061: 	rate_control: CBR
+10:55:25.061: 	bitrate:      40000
+10:55:25.061: 	cqp:          0
+10:55:25.061: 	keyint:       -1
+10:55:25.061: 	preset:       p6
+10:55:25.061: 	tuning:       hq
+10:55:25.061: 	multipass:    fullres
+10:55:25.061: 	profile:      high
+10:55:25.061: 	width:        1920
+10:55:25.061: 	height:       1080
+10:55:25.061: 	b-frames:     2
+10:55:25.061: 	psycho-aq:    1
+10:55:25.061: 	GPU:          0
+10:55:25.061: 
+10:55:25.218: libfdk_aac encoder created
+10:55:25.218: libfdk_aac bitrate: 160, channels: 2
+10:55:25.219: ==== Recording Start ===============================================
+10:55:25.219: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/nizar/2024-03-03 10-55-25.mp4'...
+11:22:40.589: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+11:22:40.589: 
+11:23:12.130: [rtmp stream: 'adv_stream'] User stopped the stream
+11:23:12.130: Output 'adv_stream': stopping
+11:23:12.130: Output 'adv_stream': Total frames output: 100118
+11:23:12.130: Output 'adv_stream': Total drawn frames: 100183 (100184 attempted)
+11:23:12.130: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+11:23:12.131: ==== Streaming Stop ================================================
+11:23:12.383: libfdk_aac encoder destroyed

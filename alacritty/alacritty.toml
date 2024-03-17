@@ -1,0 +1,8 @@
+import = ["~/.config/alacritty/ashes.toml"]
+[font]
+size = 14.0
+[font.normal]
+family = "CaskaydiaCoveNerdFont"
+[window]
+opacity = 0.65
+padding = {x = 10, y = 10}

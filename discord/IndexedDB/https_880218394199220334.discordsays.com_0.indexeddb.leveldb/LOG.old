@@ -1,0 +1,6 @@
+2024/02/17-19:00:42.984 31cd Creating DB /home/nizar/.config/discord/IndexedDB/https_880218394199220334.discordsays.com_0.indexeddb.leveldb since it was missing.
+2024/02/17-19:00:42.988 31cd Reusing MANIFEST /home/nizar/.config/discord/IndexedDB/https_880218394199220334.discordsays.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/02/17-19:00:43.016 31ce Level-0 table #5: started
+2024/02/17-19:00:43.019 31ce Level-0 table #5: 665 bytes OK
+2024/02/17-19:00:43.021 31ce Delete type=0 #3
+2024/02/17-19:00:43.021 31ce Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
