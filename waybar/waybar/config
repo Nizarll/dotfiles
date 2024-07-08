@@ -1,0 +1,149 @@
+{
+
+  "layer": "top",
+  "position": "top",
+  "mode": "dock",
+  "gtk-layer-shell": true,
+  "height": 20,
+
+  "margin-top": 0,
+  "margin-left": 4,
+  "margin-right": 4,
+  "margin-bottom": 0,
+
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+
+  "modules-center": [
+    "sway/window"
+  ],
+
+  "modules-right": [
+    "clock",
+    "network",
+    "battery",
+    "custom/weather",
+    "pulseaudio",
+    "backlight",
+    "bluetooth",
+    "idle_inhibitor"
+  ],
+
+
+  "sway/mode": {
+    "format": "  {}"
+  },
+
+  "sway/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "format": "{name} {icon}",
+    "format-icons": {
+      "1":"●",
+      "2":"●",
+      "3":"●",
+      "4":"●",
+      "5":"●",
+      "urgent":"!",
+      "focused":"●",
+      "default":"○"
+    }
+  },
+
+  "clock": {
+    "format": " {: <span color=\"#27d797\"> </span>%H:%M } ",
+    "on-click": "karlender"
+  },
+
+  "battery": {
+    "format": "<span color=\"#ff9f00\">{icon}</span>  {capacity}% {time} ",
+
+    "format-icons": ["  ", "  ", "  ", "  ", "  "],
+    "format-time": "{H}h{M}m",
+    "format-charging": "<span color=\"#FADB5F\"></span>  {icon}  {capacity}% {time} ",
+    "format-full": "<span color=\"#27d797\">{icon}</span> full ",
+    "interval": 30,
+    "states": {
+      "warning": 15,
+      "critical": 5
+    },
+    "on-click": "gnome-power-statistics"
+  },
+
+  "backlight": {
+    "format": " <span color=\"#FADB5F\">{icon}</span>  {percent}% ",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "on-scroll-up": "bash $HOME/sway-dotfiles/waybar/modules/brightness.sh up",
+    "on-scroll-down": "bash $HOME/sway-dotfiles/waybar/modules/brightness.sh down"
+  },
+
+  "idle_inhibitor": {
+	  "format": "{icon}",
+	  "format-icons": {
+	    "activated": " <span color=\"#27d797\"> </span> ",
+	    "deactivated": " <span color=\"#f53c3c\"> </span> "
+	  }
+  },
+
+  "network": {
+    "format": " {icon} ",
+    "format-alt": " {ipaddr}/{cidr} {icon} ",
+    "format-alt-click": "click-right",
+    "format-wifi": " <span color=\"#27d797\"> </span> {essid} ({signalStrength}%) ",
+    "format-ethernet": " {ifname}",
+    "format-disconnected": "⚠ Disconnected",
+    "on-click": "alacritty -e nmtui"
+  },
+
+  "pulseaudio": {
+    "format": " <span color=\"#27d797\">{icon:2}</span>{volume:4}% ",
+    "format-alt": " {icon:2}{volume:4}% ",
+    "format-alt-click": "click-right",
+    "format-muted": "  ",
+    "format-icons": {
+      "headphone": [" ", " ", " ", " "],
+      "default": ["", "", "", ""]
+    },
+    "scroll-step": 2,
+    "on-click": "pavucontrol"
+  },
+
+  "bluetooth": {
+    "format": " <span color=\"#27d797\"></span> ",
+    "format-off": " <span color=\"#f53c3c\"></span> ",
+    "on-click": "blueberry"
+  },
+
+  "tray": {
+    "icon-size": 15,
+    "spacing": 18
+  },
+
+  "custom/weather": {
+    "format": "{}",
+    "format-alt": "{alt}: {}",
+    "format-alt-click": "click-right",
+    "interval": 1800,
+    "return-type": "json",
+    "exec": "~/sway-dotfiles/waybar/modules/weather.sh",
+    "exec-if": "ping wttr.in -c1",
+    // "on-click": "alacritty -p Small -e 'bash -c \"curl -s https://en.wttr.in; read line\"'"
+    "on-click": "gnome-weather"
+  },
+
+  "sway/window": {
+    "format": "{app_id}",
+    "max-length": 50
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 20,
+    "icon-theme": "Flat-Remix-Violet-Dark",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close"
+  }
+}
